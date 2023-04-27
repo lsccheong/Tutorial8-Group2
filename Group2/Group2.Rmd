@@ -47,3 +47,23 @@ Consider the logNormal data plotted in Figure \ref{fig:histogram}.
 
 $$s^2 = \sum_{i=1}^n (x_i-\bar{x})^2$$
 
+```{r}
+library(ggplot2)
+```
+
+```{r}
+x <- c(0.05, 0.3, 0.4, 0.55, 0.7, 0.45, 0.5, 0.6)
+y <- c(0.7, 0.75, 0.8, 0.85, 0.9, 0.85, 0.8, 0.75)
+
+petals <- data.frame(x = x, y = y)
+
+center <- data.frame(x = 0.5, y = 0.8)
+
+ggplot() +
+  geom_polygon(data = petals, aes(x = x, y = y), fill = "#FFB7C5", alpha = 0.5) +
+  geom_point(data = center, aes(x = x, y = y), size = 10, shape = 21, fill = "#FF69B4") +
+  coord_fixed() +
+  theme_void()
+```
+
+
