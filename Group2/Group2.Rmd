@@ -1,0 +1,95 @@
+---
+title: "Expert advice from experts"
+author:
+- familyname: Curie
+  othernames: Marie
+  address: University of Paris
+  qualifications: Nobel Prize, PhD
+- familyname: Curie
+  othernames: Pierre
+  address: University of Paris
+  qualifications: Nobel Prize, PhD
+email: mcurie.notreal@gmail.com
+phone: (03) 9905 2478
+department: Department of\newline Econometrics &\newline Business Statistics
+organization: Acme Corporation
+bibliography: references.bib
+biblio-style: authoryear-comp
+linestretch: 1.5
+output:
+  monash::report:
+    fig_caption: yes
+    fig_height: 5
+    fig_width: 8
+    includes:
+      in_header: preamble.tex
+    keep_tex: yes
+    number_sections: yes
+    citation_package: biblatex
+    toc: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache=TRUE, messages=FALSE, warning=FALSE)
+library(ggplot2)
+```
+
+
+# Introduction
+
+In a famous paper, @BC64 introduced a family of transformations \dots
+
+```{r histogram, fig.cap="Nice histogram", message=FALSE, warning=FALSE}
+qplot(exp(rnorm(200)))
+```
+
+Consider the logNormal data plotted in Figure \ref{fig:histogram}.
+
+$$s^2 = \sum_{i=1}^n (x_i-\bar{x})^2$$
+<<<<<<< HEAD
+```{r}
+library(datasauRus)
+if(requireNamespace("ggplot2")){
+  library(ggplot2)
+  ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
+    geom_point()+
+    theme_void()+
+    theme(legend.position = "none")+
+    facet_wrap(~dataset, ncol = 3)
+}
+```
+
+=======
+Khanh added this
+```{r}
+set.seed(123)
+x <- rnorm(10000)
+
+# Compute the spectrogram
+spec <- spec.pgram(x, log = "no", taper = 0, fast = FALSE, plot = FALSE)
+
+# Plot the spectrogram
+plot(spec$freq, spec$spec, type = "l", ylim = c(0, 0.5), xlab = "Frequency (Hz)", ylab = "Power")
+```
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+x <- c(0.05, 0.3, 0.4, 0.55, 0.7, 0.45, 0.5, 0.6)
+y <- c(0.7, 0.75, 0.8, 0.85, 0.9, 0.85, 0.8, 0.75)
+
+petals <- data.frame(x = x, y = y)
+
+center <- data.frame(x = 0.5, y = 0.8)
+
+ggplot() +
+  geom_polygon(data = petals, aes(x = x, y = y), fill = "#FFB7C5", alpha = 0.5) +
+  geom_point(data = center, aes(x = x, y = y), size = 10, shape = 21, fill = "#FF69B4") +
+  coord_fixed() +
+  theme_void()
+```
+>>>>>>> 845dbeb05e18e226e23552706ced254ddc192fea
+
+
