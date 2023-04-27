@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.27)  27 APR 2023 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.27)  27 APR 2023 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,11 +1328,27 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 10.51207pt on input line 312.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 10.51207pt on input line 312.
+<Group2_files/figure-latex/unnamed-chunk-1-1.pdf, id=29, 578.16pt x 361.35pt>
+File: Group2_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+<use Group2_files/figure-latex/unnamed-chunk-1-1.pdf>
+Package pdftex.def Info: Group2_files/figure-latex/unnamed-chunk-1-1.pdf  used on input line 319.
+(pdftex.def)             Requested size: 455.24165pt x 284.52603pt.
+
+Overfull \hbox (78.88313pt too wide) in paragraph at lines 317--320
+\T1/mdbch/m/n/10.95 (-20) Khanh added this [] 
+ []
+
+[2{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc} <./Group2_files/figure-latex/histogram-1.pdf>]
+<Group2_files/figure-latex/unnamed-chunk-3-1.pdf, id=48, 578.16pt x 361.35pt>
+File: Group2_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type pdf)
+<use Group2_files/figure-latex/unnamed-chunk-3-1.pdf>
+Package pdftex.def Info: Group2_files/figure-latex/unnamed-chunk-3-1.pdf  used on input line 321.
+(pdftex.def)             Requested size: 455.24165pt x 284.52603pt.
 
 Package caption Warning: Unused \captionsetup[table] on input line 70.
 See the caption package documentation for explanation.
 
-[2{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc} <./Group2_files/figure-latex/histogram-1.pdf>] (./Group2.aux)
+[3 <./Group2_files/figure-latex/unnamed-chunk-1-1.pdf> <./Group2_files/figure-latex/unnamed-chunk-3-1.pdf>] (./Group2.aux)
 Package rerunfilecheck Info: File `Group2.out' has not changed.
 (rerunfilecheck)             Checksum: 3477AB780B430B20874CFF88F35FC81B;115.
 Package logreq Info: Writing requests to 'Group2.run.xml'.
@@ -1340,18 +1356,18 @@ Package logreq Info: Writing requests to 'Group2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26363 strings out of 477961
- 460597 string characters out of 5836430
+ 26380 strings out of 477961
+ 461341 string characters out of 5836430
  1858068 words of memory out of 5000000
- 45996 multiletter control sequences out of 15000+600000
- 613846 words of font info for 236 fonts, out of 8000000 for 9000
+ 46008 multiletter control sequences out of 15000+600000
+ 613949 words of font info for 238 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,14n,93p,1003b,1462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb>
-Output written on Group2.pdf (2 pages, 483576 bytes).
+Output written on Group2.pdf (3 pages, 521370 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 84007 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 84017 words of extra memory for PDF output out of 89155 (max. 10000000)
 
