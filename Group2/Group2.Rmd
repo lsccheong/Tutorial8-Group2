@@ -46,4 +46,17 @@ qplot(exp(rnorm(200)))
 Consider the logNormal data plotted in Figure \ref{fig:histogram}.
 
 $$s^2 = \sum_{i=1}^n (x_i-\bar{x})^2$$
+```{r}
+library(datasauRus)
+if(requireNamespace("ggplot2")){
+  library(ggplot2)
+  ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
+    geom_point()+
+    theme_void()+
+    theme(legend.position = "none")+
+    facet_wrap(~dataset, ncol = 3)
+}
+```
+
+
 
