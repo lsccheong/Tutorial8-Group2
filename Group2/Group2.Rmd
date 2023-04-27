@@ -46,6 +46,17 @@ qplot(exp(rnorm(200)))
 Consider the logNormal data plotted in Figure \ref{fig:histogram}.
 
 $$s^2 = \sum_{i=1}^n (x_i-\bar{x})^2$$
+Khanh added this
+```{r}
+set.seed(123)
+x <- rnorm(10000)
+
+# Compute the spectrogram
+spec <- spec.pgram(x, log = "no", taper = 0, fast = FALSE, plot = FALSE)
+
+# Plot the spectrogram
+plot(spec$freq, spec$spec, type = "l", ylim = c(0, 0.5), xlab = "Frequency (Hz)", ylab = "Power")
+```
 
 ```{r}
 library(ggplot2)
